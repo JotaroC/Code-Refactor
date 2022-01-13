@@ -1,9 +1,12 @@
+/* The universal selector define the box-sizing, 
+padding and margin for all elements of the web */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Define the backgroud color of body */
 body {
     background-color: #d9dcd6;
 }
@@ -20,10 +23,38 @@ h1 {
     font-size: 48px;
 }
 
+footer h2 {
+    font-size: 20px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Define the property of benefit-lead, benefit-brand and benefit-cost classes and
+    their heading elements. Using semantic tag <aside>*/
+.benefit-lead,
+.benefit-brand,
+.benefit-cost,
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 
+ {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Define the color of "seo" */
 span {
     color: #d9dcd6;
 }
 
+/* Define right top link property on the website 
+    Using semantic tag --- <nav>*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +72,18 @@ header ul li {
     margin-left: 25px;
 }
 
+/* Define the color and text-decoration of links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Define paragraph font-size */
 p {
     font-size: 16px;
 }
 
+/* Define the image property between header and main */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,21 +93,29 @@ p {
     background-position: center;
 }
 
+/* Define the position of the image in search-engine-optimization
+    and social-media-marketing*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Define the position of the image in online-reputation-management */
 .float-right {
     float: right;
     margin-right: 25px;
 }
+
+/* Define the width, display type and margin for the content class, on the left side of the website
+    Using semantic tag <article> */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Define the property of benefits class, on the right side of the website
+    Using semantic tag <aside> */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,18 +127,9 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost,
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 
- {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-
+/* Define the images property that show verticallyon the right side of the website 
+    Using semantic tag <figure>*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img
@@ -106,6 +139,8 @@ p {
     max-width: 150px;
 }
 
+/* Define the property of search-engine-optimization, online-reputation-management and
+    social-media-marketing classes. Using semantic tag <section> */
 .search-engine-optimization, 
 .online-reputation-management, 
 .social-media-marketing
@@ -125,14 +160,8 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2
-{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Define the property of footer
+    Using semantic tag <footer> */
 footer {
     padding: 30px;
     clear: both;
@@ -140,6 +169,3 @@ footer {
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
-}
